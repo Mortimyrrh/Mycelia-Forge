@@ -1,5 +1,5 @@
-![Mycelia Logo](https://raw.githubusercontent.com/Mortimyrrh/Mycelia-Fabric/master/src/main/resources/assets/mycelia/logox4.png)
-# ![Mycelia Logo](https://raw.githubusercontent.com/Mortimyrrh/Mycelia-Fabric/master/src/main/resources/assets/mycelia/mushroomx4.png) 1.16.4
+![Mycelia Logo](https://raw.githubusercontent.com/Mortimyrrh/Mycelia-Forge/main/icons/logox4.png)
+# ![Mycelia Logo](https://raw.githubusercontent.com/Mortimyrrh/Mycelia-Forge/main/icons/mushroomx4.png) 1.16.4
 
 A Forge mod adding a new dimension for travelling around quickly.
 
