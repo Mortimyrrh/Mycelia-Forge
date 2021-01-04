@@ -1,5 +1,5 @@
 # ![Mycelia Logo](https://raw.githubusercontent.com/Mortimyrrh/Mycelia-Forge/main/icons/logox4.png)
-# ![Mycelia Logo](https://raw.githubusercontent.com/Mortimyrrh/Mycelia-Forge/main/icons/mushroomx4.png) 1.16.4 Forge
+# ![Mycelia Logo](https://raw.githubusercontent.com/Mortimyrrh/Mycelia-Forge/main/icons/mushroomx4.png) 1.16.4
 
 ## Info
 Mycelia 1.16.4 is curently under development, please check back soon.  
