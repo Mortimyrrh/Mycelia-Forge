@@ -12,7 +12,7 @@
 ### Mycelial Decay (Effect)
 - A damaging effect applied to the player when in the network.  
   
-### Mycelial Defence (effect)
+### Mycelial Defence (Effect)
 - Reduces negative effects of mycelial decay.  
   
 ### Mycelial Stew (Item - Food)
