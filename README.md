@@ -19,7 +19,7 @@ To achieve this, there will be various ways of teleporting in and out of the dim
 - No, older ports or a Fabric version are not planed.   
      
 ## Planed Implamentation  
-See the design plan https://github.com/Mortimyrrh/Mycelia-Forge/blob/main/Design%20Plan.md
+[See the design plan here.](https://github.com/Mortimyrrh/Mycelia-Forge/blob/main/Design%20Plan.md)
 
 ## Info
 Mycelia 1.16.4 is curently under development, please check back soon.  
