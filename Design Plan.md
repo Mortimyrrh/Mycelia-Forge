@@ -12,7 +12,7 @@ To achieve this, there will be various ways of teleporting in and out of the dim
 64 Blocks in the Overworld.](https://raw.githubusercontent.com/Mortimyrrh/Mycelia-Forge/main/icons/1-8-64%20x2.png)
 
 1 Block in the Mycelial Network is equal to
-8 Blocks in the Nether is equal to
+8 Blocks in the Nether equal to
 64 Blocks in the Overworld.
 
 
