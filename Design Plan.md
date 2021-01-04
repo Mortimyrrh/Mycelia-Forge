@@ -1,12 +1,20 @@
 # Mycelia 1.16.4
 Forge
 
+
 ## Main Goal
 - To add a lightweight, super flat dimension for travelling a long distance.
 
-To achieve this, there will be various ways of teleporting in and out of the dimension using items, portals and Endermen. In the same way, every one block travelled in the nether is 8 blocks in the overworld. Once in the Mycelial Network Dimension, the relative coordinates are 64 blocks to 1. This allows players to travel more distance faster.
+To achieve this, there will be various ways of teleporting in and out of the dimension using items, portals and Endermen. In the same way, every one block travelled in the nether is 8 blocks in the Overworld. Once in the Mycelial Network Dimension, the relative coordinates are 64 blocks to 1. This allows players to travel more distance faster.
 
-64:8:1 (an image will be added)
+![1 Block in the Mycelial Network is equal to,
+8 Blocks in the Nether is equal to,
+64 Blocks in the Overworld.](https://raw.githubusercontent.com/Mortimyrrh/Mycelia-Forge/main/icons/1-8-64%20x2.png)
+
+1 Block in the Mycelial Network is equal to
+8 Blocks in the Nether is equal to
+64 Blocks in the Overworld.
+
 
 ## FAQ: 
 Yes, The mod is heavily inspired by Star Trek Discovery.
