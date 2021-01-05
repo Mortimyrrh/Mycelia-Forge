@@ -1,0 +1,10 @@
+{
+  "generator": {
+    "type": "mycelia:mycelial_network",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "mycelia:mycelial_planes"
+    }
+  },
+  "type": "mycelia:mycelial_network_type"
+}

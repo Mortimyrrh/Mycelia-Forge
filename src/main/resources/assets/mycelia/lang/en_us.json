@@ -1,0 +1,36 @@
+{
+  "_": "->------------------------]  Blocks  [------------------------<-",
+
+  "_": "->------------------------]  Items  [------------------------<-",
+
+  "item.mycelia.mycelial_stew": "Mycelial Stew",
+  "item.mycelia.mycelial_stew.tooltip": "Takes you to the Mycelial Network",
+
+  "_": "->------------------------]  Effects  [------------------------<-",
+
+  "effect.mycelia.mycelial_resistance": "Mycelial Resistance",
+  "effect.mycelia.mycelial_decay": "Mycelial Decay",
+
+  "_": "->------------------------]  Sounds  [------------------------<-",
+
+  "subtitles.mycelia.portal1": "Mycelial Portal",
+
+  "_": "->------------------------]  UI & Messages  [------------------------<-",
+  "itemGroup.mycelia.main_tab": "Mycelia",
+
+  "death.attack.mycelial_exsposure_damage": "%1$s was exposed to Mycelial Decay for too long.",
+
+  "_": "->------------------------]  Advancements  [------------------------<-",
+  "advancement.mycelia.root": "Welcome to Mycelia",
+  "advancement.mycelia.root.desc": "Exsplore the World!",
+
+  "_": "->------------------------]  Dimensions  [------------------------<-",
+  "dimension.mycelia.mycelial_network": "Mycelial Network",
+
+
+  "_": "->------------------------]  Biomes  [------------------------<-",
+  "biome.mycelia.mycelial_planes": "Mycelial Planes",
+
+
+  "_": "_"
+}

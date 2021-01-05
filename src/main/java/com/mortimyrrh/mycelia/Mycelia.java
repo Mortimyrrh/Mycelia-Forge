@@ -1,11 +1,10 @@
 package com.mortimyrrh.mycelia;
 
+import com.mortimyrrh.mycelia.registry.MyceliaItems;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -22,10 +21,17 @@ import java.util.stream.Collectors;
 @Mod("mycelia")
 public class Mycelia
 {
+    public static final String MOD_ID = "mycelia";
+    public static final String NAME = "Mycelia";
+    public static final String VERSION = "0.1";
+
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
     public Mycelia() {
+        MyceliaItems.register();
+
+
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         // Register the enqueueIMC method for modloading

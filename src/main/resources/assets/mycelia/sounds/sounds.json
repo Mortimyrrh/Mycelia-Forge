@@ -1,0 +1,10 @@
+{
+  "portal1": {
+    "subtitle": "subtitles.mycelia.portal1",
+    "sounds": [{
+      "name": "mycelia:portal1",
+      "stream": false
+    }
+    ]
+  }
+}
