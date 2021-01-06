@@ -21,7 +21,7 @@ public class MycelialStewItem extends Item {
 
         super(new Item.Properties()
                 .rarity(Rarity.RARE)
-                .maxStackSize(16)
+                .maxStackSize(1)
                 .food(new Food.Builder()
                         .hunger(6)
                         .saturation(7)

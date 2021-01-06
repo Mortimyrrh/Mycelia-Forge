@@ -20,7 +20,6 @@ public class MyceliaCreativeTab extends ItemGroup {
     @OnlyIn(Dist.CLIENT)
     @Override
     public ItemStack createIcon() {
-        //return new ItemStack(Items.ENCHANTED_GOLDEN_APPLE);
         return new ItemStack(MyceliaItems.MYCELIAL_STEW_ITEM.get());
     }
 }
