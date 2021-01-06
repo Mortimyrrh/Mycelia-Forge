@@ -1,5 +1,6 @@
 package com.mortimyrrh.mycelia;
 
+import com.mortimyrrh.mycelia.registry.MyceliaEffects;
 import com.mortimyrrh.mycelia.registry.MyceliaItems;
 import net.minecraft.block.Block;
 import net.minecraftforge.common.MinecraftForge;
@@ -32,6 +33,7 @@ public class Mycelia
 
     public Mycelia() {
         MyceliaItems.register();
+        MyceliaEffects.registerEffects();
 
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
