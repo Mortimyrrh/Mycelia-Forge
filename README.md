@@ -1,4 +1,4 @@
-![Mycelia Logo](https://raw.githubusercontent.com/Mortimyrrh/Mycelia-Forge/main/icons/logox4.png)
+![Mycelia Logo](https://raw.githubusercontent.com/Mortimyrrh/Mycelia-Forge/main/icons/logox8.png)
 # ![Mycelia Logo](https://raw.githubusercontent.com/Mortimyrrh/Mycelia-Forge/main/icons/mushroomx4.png) 1.16.4
 
 ## Info
