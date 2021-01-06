@@ -25,12 +25,13 @@ public class Mycelia
     public static final String NAME = "Mycelia";
     public static final String VERSION = "0.1";
 
+    public static final MyceliaCreativeTab myceliaCreativeTab = new MyceliaCreativeTab();
+
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
     public Mycelia() {
         MyceliaItems.register();
-
 
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);

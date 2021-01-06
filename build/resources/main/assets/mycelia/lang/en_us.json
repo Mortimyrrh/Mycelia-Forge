@@ -16,7 +16,7 @@
   "subtitles.mycelia.portal1": "Mycelial Portal",
 
   "_": "->------------------------]  UI & Messages  [------------------------<-",
-  "itemGroup.mycelia.main_tab": "Mycelia",
+  "itemGroup.mycelia.main": "Mycelia",
 
   "death.attack.mycelial_exsposure_damage": "%1$s was exposed to Mycelial Decay for too long.",
 

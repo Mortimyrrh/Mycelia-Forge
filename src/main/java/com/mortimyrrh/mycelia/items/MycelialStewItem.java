@@ -1,31 +1,46 @@
 package com.mortimyrrh.mycelia.items;
 
-import net.minecraft.item.Item;
+import com.mortimyrrh.mycelia.Mycelia;
+import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.item.*;
+import net.minecraft.util.IReorderingProcessor;
+import net.minecraft.util.text.*;
+import net.minecraft.world.World;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import org.w3c.dom.ranges.Range;
+
+import javax.annotation.Nullable;
+import javax.management.openmbean.SimpleType;
+import java.util.List;
 
 public class MycelialStewItem extends Item {
 
-    public MycelialStewItem(Properties properties) {
-        super(properties);
+    public MycelialStewItem()
+    {
+
+        super(new Item.Properties()
+                .rarity(Rarity.RARE)
+                .maxStackSize(16)
+                .food(new Food.Builder()
+                        .hunger(6)
+                        .saturation(7)
+                        .setAlwaysEdible()
+                        //.statusEffect(new StatusEffectInstance(MyceliaEffects.MYCELIAL_RESISTANCE, (20 * 25)), 1.0f)
+                        .fastToEat()
+                        .build())
+                .group(Mycelia.myceliaCreativeTab));
+    }
+
+    @OnlyIn(Dist.CLIENT)
+    public void addInformation(ItemStack stack, @Nullable World worldIn, List<ITextComponent> tooltip, ITooltipFlag flagIn) {
+        tooltip.add(new TranslationTextComponent("item.mycelia.mycelial_stew.tooltip")
+                .setStyle(Style.EMPTY
+                        .applyFormatting(TextFormatting.DARK_PURPLE)
+                        .applyFormatting(TextFormatting.ITALIC)));
     }
 
 
-        // super(new Item.Settings()
-        //                .recipeRemainder(Items.BOWL)
-        //                .maxCount(1)
-        //                .rarity(Rarity.RARE)
-        //                .food(new FoodComponent.Builder()
-        //                        .hunger(6)
-        //                        .saturationModifier(7)
-        //                        .snack()
-        //                        .alwaysEdible()
-        //                        .statusEffect(new StatusEffectInstance(MyceliaEffects.MYCELIAL_RESISTANCE, (20 * 25)), 1.0f)
-        //                        .build())
-        //                .group(ItemGroup.FOOD));
-        //@Override
-        //    public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
-        //        tooltip.add(new TranslatableText("item.mycelia.mycelial_stew.tooltip"));
-        //    }
-        //
         //    private BlockPos getSafeTeleportPosNearEntity (LivingEntity entity)
         //    {
         //        BlockPos blockPos = getNewTeleportPosNearEntity(entity);
