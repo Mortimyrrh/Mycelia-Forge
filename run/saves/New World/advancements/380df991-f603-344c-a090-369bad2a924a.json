@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2021-01-07 13:58:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/obtain_netherite_hoe": {
     "criteria": {
       "netherite_hoe": "2021-01-06 19:05:57 +0000"
@@ -35,6 +41,19 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:creeper": "2021-01-07 13:58:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2021-01-07 13:58:25 +0000",
+      "minecraft:creeper": "2021-01-07 13:58:21 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2021-01-06 19:10:14 +0000"
@@ -46,6 +65,12 @@
       "in_water": "2021-01-06 19:10:14 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "enchanted_golden_apple": "2021-01-07 14:00:24 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/misc/mojang_banner_pattern": {
     "criteria": {
@@ -107,6 +132,12 @@
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
       "has_bonemeal": "2021-01-06 19:05:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2021-01-07 13:58:25 +0000"
     },
     "done": true
   },

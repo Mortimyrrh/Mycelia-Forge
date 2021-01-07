@@ -1,6 +1,7 @@
 package com.mortimyrrh.mycelia.effects;
 
 import com.mortimyrrh.mycelia.registry.MyceliaDamageSources;
+import com.mortimyrrh.mycelia.registry.MyceliaEffects;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.potion.Effect;
@@ -17,10 +18,10 @@ public class MycelialDecayEffect extends Effect {
         super.performEffect(entityLivingBaseIn, amplifier);
 
         if (entityLivingBaseIn instanceof PlayerEntity) {
-//            if (!entity.hasStatusEffect(MyceliaEffects.MYCELIAL_RESISTANCE))
-//            {
+            if (!entityLivingBaseIn.isPotionActive(MyceliaEffects.MYCELIAL_RESISTANCE_EFFECT.get()))
+            {
             entityLivingBaseIn.attackEntityFrom(MyceliaDamageSources.MYCELIAL_EXSPOSURE, (1 << amplifier));
-//            }
+            }
         }
     }
 
