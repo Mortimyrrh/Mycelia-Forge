@@ -11,13 +11,12 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class MyceliaItems
 {
-    private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mycelia.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mycelia.MOD_ID);
 
     public static final RegistryObject<Item> MYCELIAL_STEW_ITEM = ITEMS.register("mycelial_stew", () -> new MycelialStewItem());
     public static final RegistryObject<Item> MYSHROOM_ITEM = ITEMS.register("myshroom", () -> new MyshroomItem());
-    //public static final RegistryObject<Item> MYRRHSHROOM_ITEM = ITEMS.register("myrrhshroom", () -> new MyshroomItem());
 
+    //public static final RegistryObject<Item> MYRRHSHROOM_ITEM = ITEMS.register("myrrhshroom", () -> new MyshroomItem());
     //public static final RegistryObject<Item> MYCELIAL_TEST_ITEM = ITEMS.register("mycelial_test", () -> new Item(new Item.Properties().group(Mycelia.myceliaCreativeTab)));
 
-    public static void register() { ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus()); }
 }

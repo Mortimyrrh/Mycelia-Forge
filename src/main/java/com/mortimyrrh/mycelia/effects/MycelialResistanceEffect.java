@@ -1,5 +1,6 @@
 package com.mortimyrrh.mycelia.effects;
 
+import com.mortimyrrh.mycelia.Mycelia;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.potion.Effect;
 import net.minecraft.potion.EffectType;
