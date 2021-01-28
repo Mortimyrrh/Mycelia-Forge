@@ -1,7 +1,7 @@
 {
-  "minecraft:recipes/food/bread": {
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
-      "has_wheat": "2021-01-06 19:09:05 +0000"
+      "has_iron_helmet": "2021-01-28 12:54:46 +0000"
     },
     "done": true
   },
@@ -23,6 +23,70 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:creeper": "2021-01-07 13:58:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2021-01-07 13:58:25 +0000",
+      "minecraft:creeper": "2021-01-07 13:58:21 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2021-01-28 12:54:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "enchanted_golden_apple": "2021-01-07 14:00:24 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2021-01-06 21:04:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_helmet": "2021-01-28 12:54:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2021-01-06 19:05:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:mountains": "2021-01-06 19:26:40 +0000",
+      "minecraft:river": "2021-01-06 19:26:32 +0000",
+      "minecraft:swamp": "2021-01-06 21:05:39 +0000",
+      "minecraft:plains": "2020-12-03 18:04:23 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2021-01-07 13:58:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2021-01-06 19:09:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2021-01-06 19:44:49 +0000"
@@ -41,19 +105,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:creeper": "2021-01-07 13:58:21 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:skeleton": "2021-01-07 13:58:25 +0000",
-      "minecraft:creeper": "2021-01-07 13:58:21 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2021-01-06 19:10:14 +0000"
@@ -63,18 +114,6 @@
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2021-01-06 19:10:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/balanced_diet": {
-    "criteria": {
-      "enchanted_golden_apple": "2021-01-07 14:00:24 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/misc/mojang_banner_pattern": {
-    "criteria": {
-      "has_enchanted_golden_apple": "2021-01-06 21:04:42 +0000"
     },
     "done": true
   },
@@ -108,36 +147,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2021-01-06 19:05:43 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
       "has_wheat": "2021-01-06 19:09:05 +0000"
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:mountains": "2021-01-06 19:26:40 +0000",
-      "minecraft:river": "2021-01-06 19:26:32 +0000",
-      "minecraft:swamp": "2021-01-06 21:05:39 +0000",
-      "minecraft:plains": "2020-12-03 18:04:23 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
       "has_bonemeal": "2021-01-06 19:05:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bone_meal": {
-    "criteria": {
-      "has_bone": "2021-01-07 13:58:25 +0000"
     },
     "done": true
   },

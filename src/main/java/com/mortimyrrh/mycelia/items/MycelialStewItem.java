@@ -3,6 +3,7 @@ package com.mortimyrrh.mycelia.items;
 import com.mortimyrrh.mycelia.Mycelia;
 import com.mortimyrrh.mycelia.effects.MycelialResistanceEffect;
 import com.mortimyrrh.mycelia.registry.MyceliaEffects;
+import com.mortimyrrh.mycelia.registry.MyceliaSounds;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.*;
@@ -28,10 +29,6 @@ public class MycelialStewItem extends Item {
                         .hunger(6)
                         .saturation(7)
                         .setAlwaysEdible()
-                        //.effect(MycelialResFromStew, 1.0F)
-                        //.effect(new EffectInstance(MyceliaEffects.MYCELIAL_RESISTANCE_EFFECT.get(), 1200), 1.0F)
-                        //.effect(new EffectInstance(MyceliaEffects.MYCELIAL_RESISTANCE_EFFECT.get(), 200, 1), 1.0F)
-                        //.effect(new EffectInstance(Effects.ABSORPTION, 2400, 3), 1.0F)
                         .fastToEat()
                         .build())
                 .group(Mycelia.myceliaCreativeTab));

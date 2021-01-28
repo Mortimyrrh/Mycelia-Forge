@@ -1,5 +1,6 @@
 package com.mortimyrrh.mycelia;
 
+import com.mortimyrrh.mycelia.items.armour.AncientMycelialMaterial;
 import com.mortimyrrh.mycelia.registry.MyceliaBlocks;
 import com.mortimyrrh.mycelia.registry.MyceliaEffects;
 import com.mortimyrrh.mycelia.registry.MyceliaItems;
@@ -32,6 +33,8 @@ public class Mycelia
     public static final String VERSION = "0.1";
 
     public static final MyceliaCreativeTab myceliaCreativeTab = new MyceliaCreativeTab();
+
+    public static final AncientMycelialMaterial ancientMycelialMaterial = new AncientMycelialMaterial();
 
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();

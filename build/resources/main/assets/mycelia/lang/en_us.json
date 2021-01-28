@@ -9,6 +9,9 @@
   "item.mycelia.myshroom": "Myshroom",
   "item.mycelia.myshroom.tooltip": "Not Yours!",
 
+  "item.mycelia.ancient_mycelial_helmet": "Ancient Mycelial Helmet",
+  "item.mycelia.ancient_mycelial_helmet.tooltip": "Spiffy!",
+
   "_": "->------------------------]  Effects  [------------------------<-",
 
   "effect.mycelia.mycelial_resistance": "Mycelial Barrier",
