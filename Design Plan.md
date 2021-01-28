@@ -21,7 +21,8 @@
   
 ### Ancient Armour (Item - Armour) (not started)
 Permanently applies Mycelial Defence effect.
-- Upgraded armour could allow the player to teleport between worlds at will?  
+- Upgraded armour could allow the player to teleport between worlds at will?
+- can be repaired with nethrite scrap to create netherplate armour
   
 ### Mycelial Afinaty (Enchantment) (not started may rethink)
 - Craftable with an enchanting table using, a few levels above lv15, a book, and a piece of Ancient Armour (consumed by enchantment).
