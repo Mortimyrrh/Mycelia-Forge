@@ -7,7 +7,8 @@
 - Custom blocks.
 - A few structures. 
 - Relative cords of 64:1.
-- Negative Mycelial Decay effect applied to the player.  
+- Negative Mycelial Decay effect applied to the player. 
+- considering using a https://github.com/fogleman/physarum sim to grow networks for teleportation
 
 ### Mycelial Decay (Effect) (working outside the network)
 - A damaging effect applied to the player when in the network.  
