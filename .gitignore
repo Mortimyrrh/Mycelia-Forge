@@ -1,2 +1,5 @@
 run/
 .gradle
+src/main/resources/assets/mycelia/.DS_Store
+
+src/main/resources/assets/mycelia/textures/.DS_Store
