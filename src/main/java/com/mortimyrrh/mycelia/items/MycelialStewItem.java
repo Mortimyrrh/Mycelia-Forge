@@ -24,30 +24,29 @@ public class MycelialStewItem extends Item {
     {
         super(new Item.Properties()
                 .rarity(Rarity.RARE)
-                .maxStackSize(1)
+                .stacksTo(1)
                 .food(new Food.Builder()
-                        .hunger(6)
-                        .saturation(7)
-                        .setAlwaysEdible()
-                        .fastToEat()
+                        .fast()
+                        .nutrition(6)
+                        .saturationMod(7)
                         .build())
-                .group(Mycelia.myceliaCreativeTab));
+                .tab(Mycelia.myceliaCreativeTab));
     }
 
     @OnlyIn(Dist.CLIENT)
     public void addInformation(ItemStack stack, @Nullable World worldIn, List<ITextComponent> tooltip, ITooltipFlag flagIn) {
         tooltip.add(new TranslationTextComponent("item.mycelia.mycelial_stew.tooltip")
                 .setStyle(Style.EMPTY
-                        .applyFormatting(TextFormatting.DARK_PURPLE)
-                        .applyFormatting(TextFormatting.ITALIC)));
+                        .applyFormat(TextFormatting.DARK_PURPLE)
+                        .applyFormat(TextFormatting.ITALIC)));
     }
 
-    @Override
-    public ItemStack onItemUseFinish(ItemStack stack, World worldIn, LivingEntity entityLiving) {
-        entityLiving.addPotionEffect(new EffectInstance(MyceliaEffects.MYCELIAL_RESISTANCE_EFFECT.get(), 200, 0));
-        //entityLiving.playSound(MyceliaSounds.PORTAL_SOUND_EVENT, 1.0F, 1.0F);
-        return this.isFood() ? entityLiving.onFoodEaten(worldIn, stack) : stack;
-    }
+//    @Override
+//    public ItemStack onItemUseFinish(ItemStack stack, World worldIn, LivingEntity entityLiving) {
+//        entityLiving.addPotionEffect(new EffectInstance(MyceliaEffects.MYCELIAL_RESISTANCE_EFFECT.get(), 200, 0));
+//        //entityLiving.playSound(MyceliaSounds.PORTAL_SOUND_EVENT, 1.0F, 1.0F);
+//        return this.isFood() ? entityLiving.onFoodEaten(worldIn, stack) : stack;
+//    }
 
 
 

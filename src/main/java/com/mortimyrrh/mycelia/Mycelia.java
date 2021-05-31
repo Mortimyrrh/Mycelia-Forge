@@ -5,6 +5,10 @@ import com.mortimyrrh.mycelia.registry.MyceliaBlocks;
 import com.mortimyrrh.mycelia.registry.MyceliaEffects;
 import com.mortimyrrh.mycelia.registry.MyceliaItems;
 import net.minecraft.block.Block;
+import net.minecraft.util.RegistryKey;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.registry.Registry;
+import net.minecraft.world.World;
 import net.minecraft.world.biome.Biome;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
@@ -21,7 +25,6 @@ import net.minecraftforge.registries.IForgeRegistryEntry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.rmi.registry.Registry;
 import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -31,6 +34,7 @@ public class Mycelia
     public static final String MOD_ID = "mycelia";
     public static final String NAME = "Mycelia";
     public static final String VERSION = "0.1";
+    public static final ResourceLocation MOD_DIMENSION_ID = new ResourceLocation(Mycelia.MOD_ID, Mycelia.MOD_ID);
 
     public static final MyceliaCreativeTab myceliaCreativeTab = new MyceliaCreativeTab();
 
@@ -53,6 +57,7 @@ public class Mycelia
         MyceliaItems.ITEMS.register(modEventBus);
         //MyceliaBiomes.BIOMES.register(modEventBus);
 
+
         MinecraftForge.EVENT_BUS.register(this);
     }
 
@@ -69,7 +74,7 @@ public class Mycelia
 
     private void doClientStuff(final FMLClientSetupEvent event) {
         // do something that can only be done on the client
-        LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().gameSettings);
+//        LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().game);
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)

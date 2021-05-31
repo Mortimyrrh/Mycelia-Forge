@@ -13,20 +13,20 @@ public class MycelialDecayEffect extends Effect {
         super(EffectType.HARMFUL, 0x00FFFF); //#ccc ?
     }
 
-    @Override
-    public void performEffect(LivingEntity entityLivingBaseIn, int amplifier) {
-        super.performEffect(entityLivingBaseIn, amplifier);
+//    @Override
+//    public void performEffect(LivingEntity entityLivingBaseIn, int amplifier) {
+//        super.performEffect(entityLivingBaseIn, amplifier);
+//
+//        if (entityLivingBaseIn instanceof PlayerEntity) {
+//            if (!entityLivingBaseIn.isPotionActive(MyceliaEffects.MYCELIAL_RESISTANCE_EFFECT.get()))
+//            {
+//            entityLivingBaseIn.attackEntityFrom(MyceliaDamageSources.MYCELIAL_EXSPOSURE, (1 << amplifier));
+//            }
+//        }
+//    }
 
-        if (entityLivingBaseIn instanceof PlayerEntity) {
-            if (!entityLivingBaseIn.isPotionActive(MyceliaEffects.MYCELIAL_RESISTANCE_EFFECT.get()))
-            {
-            entityLivingBaseIn.attackEntityFrom(MyceliaDamageSources.MYCELIAL_EXSPOSURE, (1 << amplifier));
-            }
-        }
-    }
-
-    @Override
-    public boolean isReady(int duration, int amplifier) {
-        return true;
-    }
+//    @Override
+//    public boolean isReady(int duration, int amplifier) {
+//        return true;
+//    }
 }

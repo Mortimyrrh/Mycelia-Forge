@@ -14,5 +14,5 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class MyceliaBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Mycelia.MOD_ID);
 
-    public static final RegistryObject<Block> A_BLOCK = BLOCKS.register("a", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).sound(SoundType.BONE).hardnessAndResistance(1.0F, 1.0F)));
+    public static final RegistryObject<Block> A_BLOCK = BLOCKS.register("a", () -> new Block(AbstractBlock.Properties.of(Material.STONE).sound(SoundType.BONE_BLOCK))); // hardnessAndResistance(1.0F, 1.0F)));
 }

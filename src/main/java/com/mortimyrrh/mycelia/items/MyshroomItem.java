@@ -22,15 +22,15 @@ public class MyshroomItem extends Item {
     public MyshroomItem() {
         super(new Item.Properties()
                 .rarity(Rarity.UNCOMMON)
-                .maxStackSize(32)
-                .group(Mycelia.myceliaCreativeTab));
+                .stacksTo(32)
+                .tab(Mycelia.myceliaCreativeTab));
     }
 
     @OnlyIn(Dist.CLIENT)
     public void addInformation(ItemStack stack, @Nullable World worldIn, List<ITextComponent> tooltip, ITooltipFlag flagIn) {
         tooltip.add(new TranslationTextComponent("item.mycelia.myshroom.tooltip")
                 .setStyle(Style.EMPTY
-                        .applyFormatting(TextFormatting.DARK_PURPLE)
-                        .applyFormatting(TextFormatting.ITALIC)));
+                        .applyFormat(TextFormatting.DARK_PURPLE)
+                        .applyFormat(TextFormatting.ITALIC)));
     }
 }

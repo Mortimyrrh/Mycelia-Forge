@@ -13,7 +13,6 @@
 //    public static final DeferredRegister<Biome> BIOMES = new DeferredRegister<Biome>(ForgeRegistries.BIOMES, Mycelia.MOD_ID);
 //
 //    public static final RegistryObject<Biome> MYCEILAL_PLANES = BIOMES.register("mycelial_planes", () -> new MycelialPlanesBiome());
-//    //dimethacon causes hair loss and its in shampoo?
 //
 //    public static void registerBiomes() {
 //        registerBiome(MYCEILAL_PLANES.get(), BiomeDictionary.Type.PLAINS, BiomeDictionary.Type.DRY);
