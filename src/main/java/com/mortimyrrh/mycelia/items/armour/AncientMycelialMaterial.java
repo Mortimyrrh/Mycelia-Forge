@@ -20,23 +20,48 @@ public class AncientMycelialMaterial implements IArmorMaterial {
         return 0;
     }
 
-    @Override
-    public int getDamageReductionAmount(EquipmentSlotType slotIn) {
-        return 0;
-    }
+//    @Override
+//    public int getDamageReductionAmount(EquipmentSlotType slotIn) {
+//        return 0;
+//    }
 
     public int getEnchantability() {
         return 10;
     }
 
+//    @Override
+//    public SoundEvent getSoundEvent() {
+//        return SoundEvents.ITEM_ARMOR_EQUIP_GENERIC;
+//    }
+
+//    @Override
+//    public Ingredient getRepairMaterial() {
+//        return Ingredient.fromItems(Items.SANDSTONE);
+//    }
+
     @Override
-    public SoundEvent getSoundEvent() {
-        return SoundEvents.ITEM_ARMOR_EQUIP_GENERIC;
+    public int getDurabilityForSlot(EquipmentSlotType p_200896_1_) {
+        return 0;
     }
 
     @Override
-    public Ingredient getRepairMaterial() {
-        return Ingredient.fromItems(Items.SANDSTONE);
+    public int getDefenseForSlot(EquipmentSlotType p_200902_1_) {
+        return 0;
+    }
+
+    @Override
+    public int getEnchantmentValue() {
+        return 0;
+    }
+
+    @Override
+    public SoundEvent getEquipSound() {
+        return null;
+    }
+
+    @Override
+    public Ingredient getRepairIngredient() {
+        return null;
     }
 
     @OnlyIn(Dist.CLIENT)

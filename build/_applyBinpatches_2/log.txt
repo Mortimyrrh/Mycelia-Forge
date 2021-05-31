@@ -1,15 +1,15 @@
-Args: "--clean", "/Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/joined/1.16.4-20201102.104115/joined-1.16.4-20201102.104115-srg.jar", "--output", "/Users/mortimer/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-binpatched.jar", "--apply", "/Users/mortimer/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-binpatches.lzma"
+Args: "--clean", "/Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/joined/1.16.5-20210115.111550/joined-1.16.5-20210115.111550-srg.jar", "--output", "/Users/mortimer/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.1.0/forge-1.16.5-36.1.0-binpatched.jar", "--apply", "/Users/mortimer/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.1.0/forge-1.16.5-36.1.0-binpatches.lzma"
 Classpath: /Users/mortimer/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/binarypatcher/1.0.12/binarypatcher-1.0.12-fatjar.jar
-WorkDir: /Users/mortimer/Documents/Code/MinecraftMod/Mycelia-Forge/build/_applyBinpatches_2
+WorkDir: /Users/mortimer/Documents/Code/Minecraft Modding/Mycelia-Forge/build/_applyBinpatches_2
 Main: net.minecraftforge.binarypatcher.ConsoleTool
 ====================================
 Applying: 
-  Clean:     /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/joined/1.16.4-20201102.104115/joined-1.16.4-20201102.104115-srg.jar
-  Output:    /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-binpatched.jar
+  Clean:     /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/joined/1.16.5-20210115.111550/joined-1.16.5-20210115.111550-srg.jar
+  Output:    /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.1.0/forge-1.16.5-36.1.0-binpatched.jar
   KeepData:  false
   Unpatched: false
-  Patches:   /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-binpatches.lzma
-Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-binpatches.lzma
+  Patches:   /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.1.0/forge-1.16.5-36.1.0-binpatches.lzma
+Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.1.0/forge-1.16.5-36.1.0-binpatches.lzma
   Reading patch com.mojang.blaze3d.platform.GlStateManager$1.binpatch
     Checksum: 37bccb56 Exists: true
   Reading patch com.mojang.blaze3d.platform.GlStateManager$AlphaState.binpatch
@@ -113,7 +113,7 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
   Reading patch net.minecraft.block.AbstractBodyPlantBlock.binpatch
     Checksum: 94e94cd3 Exists: true
   Reading patch net.minecraft.block.AbstractFireBlock.binpatch
-    Checksum: 801dca12 Exists: true
+    Checksum: eb9a2627 Exists: true
   Reading patch net.minecraft.block.AbstractRailBlock$1.binpatch
     Checksum: 93feba84 Exists: true
   Reading patch net.minecraft.block.AbstractRailBlock.binpatch
@@ -192,10 +192,6 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: e29771f4 Exists: true
   Reading patch net.minecraft.block.ITileEntityProvider.binpatch
     Checksum: f5935259 Exists: true
-  Reading patch net.minecraft.block.LadderBlock$1.binpatch
-    Checksum: 36079ade Exists: true
-  Reading patch net.minecraft.block.LadderBlock.binpatch
-    Checksum: 8b50c4ac Exists: true
   Reading patch net.minecraft.block.LeavesBlock.binpatch
     Checksum: 9475952c Exists: true
   Reading patch net.minecraft.block.MovingPistonBlock.binpatch
@@ -230,8 +226,6 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: 435a8c97 Exists: true
   Reading patch net.minecraft.block.PoweredRailBlock.binpatch
     Checksum: 3efdb797 Exists: true
-  Reading patch net.minecraft.block.PumpkinBlock.binpatch
-    Checksum: d3343b29 Exists: true
   Reading patch net.minecraft.block.RailBlock$1.binpatch
     Checksum: 658d8621 Exists: true
   Reading patch net.minecraft.block.RailBlock.binpatch
@@ -250,8 +244,6 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: 88e9d9a4 Exists: true
   Reading patch net.minecraft.block.SaplingBlock.binpatch
     Checksum: 6bebfa87 Exists: true
-  Reading patch net.minecraft.block.ScaffoldingBlock.binpatch
-    Checksum: 7e0ef6f6 Exists: true
   Reading patch net.minecraft.block.SeaGrassBlock.binpatch
     Checksum: 36e9eb47 Exists: true
   Reading patch net.minecraft.block.ShulkerBoxBlock$1.binpatch
@@ -286,10 +278,6 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: dd96e924 Exists: true
   Reading patch net.minecraft.block.TrapDoorBlock.binpatch
     Checksum: a660d08f Exists: true
-  Reading patch net.minecraft.block.TripWireBlock$1.binpatch
-    Checksum: 985db05 Exists: true
-  Reading patch net.minecraft.block.TripWireBlock.binpatch
-    Checksum: d9d798b2 Exists: true
   Reading patch net.minecraft.block.TurtleEggBlock.binpatch
     Checksum: 228ce0c7 Exists: true
   Reading patch net.minecraft.block.VineBlock$1.binpatch
@@ -558,6 +546,10 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: 88b51ea4 Exists: true
   Reading patch net.minecraft.client.renderer.ActiveRenderInfo.binpatch
     Checksum: 35169c48 Exists: true
+  Reading patch net.minecraft.client.renderer.Atlases$1.binpatch
+    Checksum: 48ead875 Exists: true
+  Reading patch net.minecraft.client.renderer.Atlases.binpatch
+    Checksum: 8cd4a2f9 Exists: true
   Reading patch net.minecraft.client.renderer.BlockModelRenderer$1.binpatch
     Checksum: 45bfe76c Exists: true
   Reading patch net.minecraft.client.renderer.BlockModelRenderer$AmbientOcclusionFace.binpatch
@@ -646,8 +638,6 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: 86b933a1 Exists: true
   Reading patch net.minecraft.client.renderer.entity.FallingBlockRenderer.binpatch
     Checksum: 7e9a6728 Exists: true
-  Reading patch net.minecraft.client.renderer.entity.FishRenderer.binpatch
-    Checksum: b864308a Exists: true
   Reading patch net.minecraft.client.renderer.entity.ItemFrameRenderer.binpatch
     Checksum: 5c1382a7 Exists: true
   Reading patch net.minecraft.client.renderer.entity.ItemRenderer.binpatch
@@ -664,8 +654,6 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: ccbd246b Exists: true
   Reading patch net.minecraft.client.renderer.entity.layers.ElytraLayer.binpatch
     Checksum: 1822a99e Exists: true
-  Reading patch net.minecraft.client.renderer.entity.model.SkeletonModel.binpatch
-    Checksum: 7bf3d543 Exists: true
   Reading patch net.minecraft.client.renderer.model.BakedQuad.binpatch
     Checksum: 76861e72 Exists: true
   Reading patch net.minecraft.client.renderer.model.BlockModel$Deserializer.binpatch
@@ -724,6 +712,8 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: 818ab7c Exists: true
   Reading patch net.minecraft.client.renderer.model.SimpleBakedModel.binpatch
     Checksum: ccf7b10e Exists: true
+  Reading patch net.minecraft.client.renderer.model.UVTransformationUtil.binpatch
+    Checksum: a052707c Exists: true
   Reading patch net.minecraft.client.renderer.model.VariantList$Deserializer.binpatch
     Checksum: b01fc34a Exists: true
   Reading patch net.minecraft.client.renderer.model.VariantList.binpatch
@@ -772,6 +762,10 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: 172bcf48 Exists: true
   Reading patch net.minecraft.client.renderer.tileentity.PistonTileEntityRenderer.binpatch
     Checksum: a89e294 Exists: true
+  Reading patch net.minecraft.client.renderer.tileentity.SignTileEntityRenderer$SignModel.binpatch
+    Checksum: 21454f8d Exists: true
+  Reading patch net.minecraft.client.renderer.tileentity.SignTileEntityRenderer.binpatch
+    Checksum: ba543231 Exists: true
   Reading patch net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.binpatch
     Checksum: 2fc4ebfb Exists: true
   Reading patch net.minecraft.client.renderer.vertex.VertexFormat.binpatch
@@ -940,8 +934,6 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: 3c2cca95 Exists: true
   Reading patch net.minecraft.dispenser.IDispenseItemBehavior.binpatch
     Checksum: ba6abd8d Exists: true
-  Reading patch net.minecraft.enchantment.EfficiencyEnchantment.binpatch
-    Checksum: b9df82e0 Exists: true
   Reading patch net.minecraft.enchantment.Enchantment$Rarity.binpatch
     Checksum: 674b3815 Exists: true
   Reading patch net.minecraft.enchantment.Enchantment.binpatch
@@ -1020,6 +1012,10 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: ba940e0c Exists: true
   Reading patch net.minecraft.entity.ai.attributes.Attribute.binpatch
     Checksum: 5e2faa69 Exists: true
+  Reading patch net.minecraft.entity.ai.attributes.AttributeModifierMap$MutableAttribute.binpatch
+    Checksum: 7d852176 Exists: true
+  Reading patch net.minecraft.entity.ai.attributes.AttributeModifierMap.binpatch
+    Checksum: fbcf4a7 Exists: true
   Reading patch net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes.binpatch
     Checksum: 29d12517 Exists: true
   Reading patch net.minecraft.entity.ai.brain.memory.MemoryModuleType.binpatch
@@ -1052,6 +1048,8 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: c2b426e6 Exists: true
   Reading patch net.minecraft.entity.boss.dragon.EnderDragonEntity.binpatch
     Checksum: 2847d1dc Exists: true
+  Reading patch net.minecraft.entity.boss.dragon.EnderDragonPartEntity.binpatch
+    Checksum: 3d82478d Exists: true
   Reading patch net.minecraft.entity.effect.LightningBoltEntity.binpatch
     Checksum: 4ab8005 Exists: true
   Reading patch net.minecraft.entity.item.ArmorStandEntity$1.binpatch
@@ -1078,10 +1076,6 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: 2acc82e1 Exists: true
   Reading patch net.minecraft.entity.item.ItemEntity.binpatch
     Checksum: b10d4c0e Exists: true
-  Reading patch net.minecraft.entity.item.ItemFrameEntity$1.binpatch
-    Checksum: 649cac29 Exists: true
-  Reading patch net.minecraft.entity.item.ItemFrameEntity.binpatch
-    Checksum: 74d5da1c Exists: true
   Reading patch net.minecraft.entity.item.LeashKnotEntity.binpatch
     Checksum: 11e7555f Exists: true
   Reading patch net.minecraft.entity.item.PaintingType.binpatch
@@ -1152,28 +1146,6 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: 6890d520 Exists: true
   Reading patch net.minecraft.entity.monster.MagmaCubeEntity.binpatch
     Checksum: 1aac299 Exists: true
-  Reading patch net.minecraft.entity.monster.PhantomEntity$1.binpatch
-    Checksum: 4eeb3b2b Exists: true
-  Reading patch net.minecraft.entity.monster.PhantomEntity$AttackPhase.binpatch
-    Checksum: 73d627db Exists: true
-  Reading patch net.minecraft.entity.monster.PhantomEntity$AttackPlayerGoal.binpatch
-    Checksum: 24aef817 Exists: true
-  Reading patch net.minecraft.entity.monster.PhantomEntity$BodyHelperController.binpatch
-    Checksum: 2280f19a Exists: true
-  Reading patch net.minecraft.entity.monster.PhantomEntity$LookHelperController.binpatch
-    Checksum: 7d08da76 Exists: true
-  Reading patch net.minecraft.entity.monster.PhantomEntity$MoveGoal.binpatch
-    Checksum: 9e49423c Exists: true
-  Reading patch net.minecraft.entity.monster.PhantomEntity$MoveHelperController.binpatch
-    Checksum: 6fa1e479 Exists: true
-  Reading patch net.minecraft.entity.monster.PhantomEntity$OrbitPointGoal.binpatch
-    Checksum: 806e71d0 Exists: true
-  Reading patch net.minecraft.entity.monster.PhantomEntity$PickAttackGoal.binpatch
-    Checksum: a2a94412 Exists: true
-  Reading patch net.minecraft.entity.monster.PhantomEntity$SweepAttackGoal.binpatch
-    Checksum: afc8a44f Exists: true
-  Reading patch net.minecraft.entity.monster.PhantomEntity.binpatch
-    Checksum: 3b9d351f Exists: true
   Reading patch net.minecraft.entity.monster.RavagerEntity$1.binpatch
     Checksum: 3f2a3b0d Exists: true
   Reading patch net.minecraft.entity.monster.RavagerEntity$AttackGoal.binpatch
@@ -1232,12 +1204,16 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: b3f8cd0a Exists: true
   Reading patch net.minecraft.entity.monster.ZombieVillagerEntity.binpatch
     Checksum: 13142369 Exists: true
+  Reading patch net.minecraft.entity.monster.ZombifiedPiglinEntity.binpatch
+    Checksum: d440927f Exists: true
   Reading patch net.minecraft.entity.monster.piglin.AbstractPiglinEntity.binpatch
     Checksum: ef8ffec6 Exists: true
   Reading patch net.minecraft.entity.monster.piglin.PiglinEntity.binpatch
     Checksum: 558df9d7 Exists: true
   Reading patch net.minecraft.entity.monster.piglin.PiglinTasks.binpatch
     Checksum: bc7af349 Exists: true
+  Reading patch net.minecraft.entity.monster.piglin.StartAdmiringItemTask.binpatch
+    Checksum: e59ec5d7 Exists: true
   Reading patch net.minecraft.entity.passive.AnimalEntity.binpatch
     Checksum: 44fce6ec Exists: true
   Reading patch net.minecraft.entity.passive.BeeEntity$1.binpatch
@@ -1344,6 +1320,16 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: ba0a8cea Exists: true
   Reading patch net.minecraft.entity.passive.PigEntity.binpatch
     Checksum: 5747805 Exists: true
+  Reading patch net.minecraft.entity.passive.PolarBearEntity$AttackPlayerGoal.binpatch
+    Checksum: 81b006d5 Exists: true
+  Reading patch net.minecraft.entity.passive.PolarBearEntity$HurtByTargetGoal.binpatch
+    Checksum: 8a37a5 Exists: true
+  Reading patch net.minecraft.entity.passive.PolarBearEntity$MeleeAttackGoal.binpatch
+    Checksum: a563941f Exists: true
+  Reading patch net.minecraft.entity.passive.PolarBearEntity$PanicGoal.binpatch
+    Checksum: 3202ca58 Exists: true
+  Reading patch net.minecraft.entity.passive.PolarBearEntity.binpatch
+    Checksum: 825079cd Exists: true
   Reading patch net.minecraft.entity.passive.RabbitEntity$AvoidEntityGoal.binpatch
     Checksum: eb1a4ae9 Exists: true
   Reading patch net.minecraft.entity.passive.RabbitEntity$EvilAttackGoal.binpatch
@@ -1734,6 +1720,8 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: 19a85363 Exists: true
   Reading patch net.minecraft.nbt.StringNBT.binpatch
     Checksum: f9f4660e Exists: true
+  Reading patch net.minecraft.network.NettyPacketEncoder.binpatch
+    Checksum: 7a1687da Exists: true
   Reading patch net.minecraft.network.NetworkManager$1.binpatch
     Checksum: 4de9b0a0 Exists: true
   Reading patch net.minecraft.network.NetworkManager$2.binpatch
@@ -2069,7 +2057,7 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
   Reading patch net.minecraft.util.Direction$AxisDirection.binpatch
     Checksum: e8e78e8 Exists: true
   Reading patch net.minecraft.util.Direction$Plane.binpatch
-    Checksum: 51f13a2d Exists: true
+    Checksum: ea8a5aba Exists: true
   Reading patch net.minecraft.util.Direction.binpatch
     Checksum: 92b5fd9e Exists: true
   Reading patch net.minecraft.util.RegistryKey.binpatch
@@ -2090,6 +2078,28 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: a5cf0ba0 Exists: true
   Reading patch net.minecraft.util.SoundEvents.binpatch
     Checksum: ad083d08 Exists: true
+  Reading patch net.minecraft.util.Util$1.binpatch
+    Checksum: e1031db5 Exists: true
+  Reading patch net.minecraft.util.Util$2.binpatch
+    Checksum: 13317f4e Exists: true
+  Reading patch net.minecraft.util.Util$3.binpatch
+    Checksum: 8f164601 Exists: true
+  Reading patch net.minecraft.util.Util$4.binpatch
+    Checksum: f1b0fb3 Exists: true
+  Reading patch net.minecraft.util.Util$5.binpatch
+    Checksum: 94290791 Exists: true
+  Reading patch net.minecraft.util.Util$6.binpatch
+    Checksum: 1d35cac4 Exists: true
+  Reading patch net.minecraft.util.Util$IdentityStrategy.binpatch
+    Checksum: 37ba6c3f Exists: true
+  Reading patch net.minecraft.util.Util$OS$1.binpatch
+    Checksum: 426fe6df Exists: true
+  Reading patch net.minecraft.util.Util$OS$2.binpatch
+    Checksum: 6f01d9d3 Exists: true
+  Reading patch net.minecraft.util.Util$OS.binpatch
+    Checksum: 4a6a62e3 Exists: true
+  Reading patch net.minecraft.util.Util.binpatch
+    Checksum: 52d4b8de Exists: true
   Reading patch net.minecraft.util.datafix.codec.DatapackCodec.binpatch
     Checksum: b27f33b5 Exists: true
   Reading patch net.minecraft.util.math.RayTraceContext$BlockMode.binpatch
@@ -2180,6 +2190,8 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: bfc40ca6 Exists: true
   Reading patch net.minecraft.world.ExplosionContext.binpatch
     Checksum: 9150f23b Exists: true
+  Reading patch net.minecraft.world.ForcedChunksSaveData.binpatch
+    Checksum: dab918ef Exists: true
   Reading patch net.minecraft.world.IBlockReader.binpatch
     Checksum: a64eb386 Exists: true
   Reading patch net.minecraft.world.IWorldReader.binpatch
@@ -2224,6 +2236,8 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: 7b5d08e5 Exists: true
   Reading patch net.minecraft.world.biome.BiomeAmbience$GrassColorModifier$3.binpatch
     Checksum: c38f5a86 Exists: true
+  Reading patch net.minecraft.world.biome.BiomeAmbience$GrassColorModifier$ColorModifier.binpatch
+    Checksum: 0 Exists: false
   Reading patch net.minecraft.world.biome.BiomeAmbience$GrassColorModifier.binpatch
     Checksum: 7cf7aeaf Exists: true
   Reading patch net.minecraft.world.biome.BiomeAmbience.binpatch
@@ -2246,6 +2260,8 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: b147ae6a Exists: true
   Reading patch net.minecraft.world.biome.MobSpawnInfo.binpatch
     Checksum: 8570a9f8 Exists: true
+  Reading patch net.minecraft.world.biome.provider.OverworldBiomeProvider.binpatch
+    Checksum: 84ae01f6 Exists: true
   Reading patch net.minecraft.world.border.WorldBorder$1.binpatch
     Checksum: 590d3749 Exists: true
   Reading patch net.minecraft.world.border.WorldBorder$IBorderInfo.binpatch
@@ -2452,6 +2468,12 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: 433ac33e Exists: true
   Reading patch net.minecraft.world.spawner.AbstractSpawner.binpatch
     Checksum: c3c159d8 Exists: true
+  Reading patch net.minecraft.world.spawner.CatSpawner.binpatch
+    Checksum: 5001d8d7 Exists: true
+  Reading patch net.minecraft.world.spawner.PatrolSpawner.binpatch
+    Checksum: 21aa7b03 Exists: true
+  Reading patch net.minecraft.world.spawner.PhantomSpawner.binpatch
+    Checksum: a31af6e0 Exists: true
   Reading patch net.minecraft.world.spawner.WorldEntitySpawner$1.binpatch
     Checksum: ab86e980 Exists: true
   Reading patch net.minecraft.world.spawner.WorldEntitySpawner$EntityDensityManager.binpatch
@@ -2482,12 +2504,11 @@ Loading patches file: /Users/mortimer/.gradle/caches/forge_gradle/minecraft_user
     Checksum: 531d664c Exists: true
   Reading patch net.minecraft.world.storage.WorldSavedData.binpatch
     Checksum: f3fb0286 Exists: true
-Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/joined/1.16.4-20201102.104115/joined-1.16.4-20201102.104115-srg.jar
+Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/joined/1.16.5-20210115.111550/joined-1.16.5-20210115.111550-srg.jar
   Patching net/minecraft/block/VineBlock$1 1/1
   Patching net/minecraft/block/WebBlock 1/1
   Patching net/minecraft/block/VineBlock 1/1
   Patching net/minecraft/block/TurtleEggBlock 1/1
-  Patching net/minecraft/block/TripWireBlock 1/1
   Patching net/minecraft/block/TrapDoorBlock 1/1
   Patching net/minecraft/block/TNTBlock 1/1
   Patching net/minecraft/block/TallSeaGrassBlock 1/1
@@ -2503,13 +2524,11 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/particles/BlockParticleData$1 1/1
   Patching net/minecraft/block/ShulkerBoxBlock 1/1
   Patching net/minecraft/block/SeaGrassBlock 1/1
-  Patching net/minecraft/block/ScaffoldingBlock 1/1
   Patching net/minecraft/block/SaplingBlock 1/1
   Patching net/minecraft/block/RedstoneWireBlock 1/1
   Patching net/minecraft/block/RedstoneOreBlock 1/1
   Patching net/minecraft/block/RailState 1/1
   Patching net/minecraft/block/RailBlock 1/1
-  Patching net/minecraft/block/PumpkinBlock 1/1
   Patching net/minecraft/block/PoweredRailBlock 1/1
   Patching net/minecraft/block/PotatoBlock 1/1
   Patching net/minecraft/block/OreBlock 1/1
@@ -2519,7 +2538,6 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/block/MushroomBlock 1/1
   Patching net/minecraft/block/FlowingFluidBlock 1/1
   Patching net/minecraft/block/LeavesBlock 1/1
-  Patching net/minecraft/block/LadderBlock 1/1
   Patching net/minecraft/block/AbstractTopPlantBlock 1/1
   Patching net/minecraft/block/AbstractBodyPlantBlock 1/1
   Patching net/minecraft/block/FrostedIceBlock 1/1
@@ -2556,6 +2574,7 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/block/BambooBlock 1/1
   Patching net/minecraft/block/AttachedStemBlock 1/1
   Patching net/minecraft/block/AbstractBannerBlock 1/1
+  Patching net/minecraft/world/biome/provider/OverworldBiomeProvider 1/1
   Patching net/minecraft/world/biome/MobSpawnInfo 1/1
   Patching net/minecraft/world/biome/BiomeAmbience 1/1
   Patching net/minecraft/world/biome/BiomeGenerationSettings 1/1
@@ -2567,6 +2586,7 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/world/WorldSettings 1/1
   Patching net/minecraft/world/IWorldReader 1/1
   Patching net/minecraft/world/World 1/1
+  Patching net/minecraft/world/ForcedChunksSaveData 1/1
   Patching net/minecraft/world/ExplosionContext 1/1
   Patching net/minecraft/world/Explosion 1/1
   Patching net/minecraft/util/datafix/codec/DatapackCodec 1/1
@@ -2581,7 +2601,6 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/enchantment/EnchantmentHelper 1/1
   Patching net/minecraft/enchantment/EnchantmentType 1/1
   Patching net/minecraft/enchantment/Enchantment 1/1
-  Patching net/minecraft/enchantment/EfficiencyEnchantment 1/1
   Patching net/minecraft/client/network/ServerPinger$2 1/1
   Patching net/minecraft/client/network/ServerPinger$1 1/1
   Patching net/minecraft/item/crafting/SmithingRecipe 1/1
@@ -2693,11 +2712,14 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/entity/player/PlayerInventory 1/1
   Patching net/minecraft/entity/merchant/villager/VillagerProfession 1/1
   Patching net/minecraft/entity/merchant/villager/VillagerEntity 1/1
+  Patching net/minecraft/world/spawner/CatSpawner 1/1
   Patching net/minecraft/entity/merchant/villager/AbstractVillagerEntity 1/1
+  Patching net/minecraft/entity/monster/piglin/StartAdmiringItemTask 1/1
   Patching net/minecraft/entity/monster/piglin/PiglinTasks 1/1
   Patching net/minecraft/entity/monster/piglin/PiglinEntity 1/1
   Patching net/minecraft/entity/monster/piglin/AbstractPiglinEntity 1/1
   Patching net/minecraft/entity/monster/HoglinEntity 1/1
+  Patching net/minecraft/entity/monster/ZombifiedPiglinEntity 1/1
   Patching net/minecraft/entity/monster/ZombieVillagerEntity 1/1
   Patching net/minecraft/entity/monster/ZombieEntity 1/1
   Patching net/minecraft/client/particle/ParticleManager$1 1/1
@@ -2706,7 +2728,6 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/entity/monster/SilverfishEntity 1/1
   Patching net/minecraft/entity/monster/ShulkerEntity 1/1
   Patching net/minecraft/entity/monster/RavagerEntity 1/1
-  Patching net/minecraft/entity/monster/PhantomEntity 1/1
   Patching net/minecraft/entity/monster/MagmaCubeEntity 1/1
   Patching net/minecraft/entity/monster/IllusionerEntity 1/1
   Patching net/minecraft/entity/monster/EvokerEntity 1/1
@@ -2721,7 +2742,6 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/network/datasync/DataSerializers$16 1/1
   Patching net/minecraft/entity/item/LeashKnotEntity 1/1
   Patching net/minecraft/network/datasync/DataSerializers$15 1/1
-  Patching net/minecraft/entity/item/ItemFrameEntity 1/1
   Patching net/minecraft/network/datasync/DataSerializers$14 1/1
   Patching net/minecraft/entity/item/HangingEntity 1/1
   Patching net/minecraft/network/datasync/DataSerializers$13 1/1
@@ -2732,6 +2752,7 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/network/datasync/DataSerializers$10 1/1
   Patching net/minecraft/network/datasync/DataSerializers$1 1/1
   Patching net/minecraft/entity/boss/dragon/EnderDragonEntity 1/1
+  Patching net/minecraft/entity/boss/dragon/EnderDragonPartEntity 1/1
   Patching net/minecraft/entity/ai/goal/TriggerSkeletonTrapGoal 1/1
   Patching net/minecraft/entity/passive/horse/HorseEntity 1/1
   Patching net/minecraft/entity/passive/horse/AbstractHorseEntity 1/1
@@ -2739,6 +2760,7 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/entity/passive/SnowGolemEntity 1/1
   Patching net/minecraft/entity/passive/SheepEntity 1/1
   Patching net/minecraft/entity/passive/RabbitEntity 1/1
+  Patching net/minecraft/entity/passive/PolarBearEntity 1/1
   Patching net/minecraft/entity/passive/PigEntity 1/1
   Patching net/minecraft/entity/passive/ParrotEntity 1/1
   Patching net/minecraft/entity/passive/OcelotEntity 1/1
@@ -2781,8 +2803,13 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/world/server/ChunkManager$1 1/1
   Patching net/minecraft/util/text/Style$1 1/1
   Patching net/minecraft/client/Minecraft$1 1/1
+  Patching net/minecraft/entity/passive/PolarBearEntity$PanicGoal 1/1
+  Patching net/minecraft/entity/passive/PolarBearEntity$MeleeAttackGoal 1/1
+  Patching net/minecraft/entity/passive/PolarBearEntity$HurtByTargetGoal 1/1
+  Patching net/minecraft/entity/passive/PolarBearEntity$AttackPlayerGoal 1/1
   Patching net/minecraft/entity/ai/brain/task/FarmTask 1/1
   Patching net/minecraft/entity/ai/attributes/GlobalEntityTypeAttributes 1/1
+  Patching net/minecraft/entity/ai/attributes/AttributeModifierMap 1/1
   Patching net/minecraft/entity/ai/attributes/Attribute 1/1
   Patching net/minecraft/tileentity/PistonTileEntity$1 1/1
   Patching net/minecraft/entity/EntitySpawnPlacementRegistry 1/1
@@ -2871,7 +2898,6 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/world/storage/SaveFormat$LevelSave$1 1/1
   Patching net/minecraft/world/gen/feature/structure/StructureStart$1 1/1
   Patching net/minecraft/block/ShulkerBoxBlock$1 1/1
-  Patching net/minecraft/entity/item/ItemFrameEntity$1 1/1
   Patching net/minecraft/world/World$1 1/1
   Patching net/minecraft/entity/passive/BeeEntity$WanderGoal 1/1
   Patching net/minecraft/entity/passive/BeeEntity$PollinateGoal 1/1
@@ -3034,6 +3060,7 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/block/RedstoneWireBlock$1 1/1
   Patching net/minecraft/entity/player/PlayerEntity$SleepResult 1/1
   Patching net/minecraft/entity/player/PlayerEntity$1 1/1
+  Patching net/minecraft/entity/ai/attributes/AttributeModifierMap$MutableAttribute 1/1
   Patching net/minecraft/network/datasync/DataSerializers$9 1/1
   Patching net/minecraft/network/datasync/DataSerializers$8 1/1
   Patching net/minecraft/network/datasync/DataSerializers$7 1/1
@@ -3063,11 +3090,11 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/client/gui/screen/BiomeGeneratorTypeScreens$2 1/1
   Patching net/minecraft/client/gui/screen/BiomeGeneratorTypeScreens$1 1/1
   Patching net/minecraft/world/storage/SaveFormat$LevelSave 1/1
-  Patching net/minecraft/block/TripWireBlock$1 1/1
   Patching net/minecraft/client/renderer/FogRenderer$FogType 1/1
   Patching net/minecraft/client/gui/ResourceLoadProgressGui$MojangLogoTexture 1/1
   Patching net/minecraft/client/renderer/BlockModelRenderer$Cache$2 1/1
   Patching net/minecraft/client/renderer/BlockModelRenderer$Cache$1 1/1
+  Patching net/minecraft/client/renderer/Atlases$1 1/1
   Patching net/minecraft/server/MinecraftServer$2 1/1
   Patching net/minecraft/server/MinecraftServer$1 1/1
   Patching net/minecraft/client/renderer/texture/AtlasTexture$SheetData 1/1
@@ -3104,6 +3131,8 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/resources/FallbackResourceManager$LeakComplainerInputStream 1/1
   Patching net/minecraft/advancements/criterion/ItemPredicate$Builder 1/1
   Patching net/minecraft/tileentity/ShulkerBoxTileEntity$AnimationStatus 1/1
+  Patching net/minecraft/util/Util$OS$2 1/1
+  Patching net/minecraft/util/Util$OS$1 1/1
   Patching net/minecraft/client/gui/screen/WorldOptionsScreen$3 1/1
   Patching net/minecraft/client/gui/screen/WorldOptionsScreen$2 1/1
   Patching net/minecraft/client/gui/screen/WorldOptionsScreen$1 1/1
@@ -3124,19 +3153,17 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/inventory/container/RepairContainer$1 1/1
   Patching net/minecraft/entity/passive/MooshroomEntity$Type 1/1
   Patching net/minecraft/item/ArmorItem$1 1/1
+  Patching net/minecraft/util/Util$OS 1/1
+  Patching net/minecraft/util/Util$IdentityStrategy 1/1
+  Patching net/minecraft/util/Util$6 1/1
+  Patching net/minecraft/util/Util$5 1/1
+  Patching net/minecraft/util/Util$4 1/1
+  Patching net/minecraft/util/Util$3 1/1
+  Patching net/minecraft/util/Util$2 1/1
+  Patching net/minecraft/util/Util$1 1/1
   Patching net/minecraft/block/RailState$1 1/1
   Patching net/minecraft/network/play/server/SCommandListPacket$Entry 1/1
-  Patching net/minecraft/entity/monster/PhantomEntity$SweepAttackGoal 1/1
-  Patching net/minecraft/entity/monster/PhantomEntity$MoveGoal 1/1
-  Patching net/minecraft/entity/monster/PhantomEntity$MoveHelperController 1/1
-  Patching net/minecraft/entity/monster/PhantomEntity$LookHelperController 1/1
-  Patching net/minecraft/entity/monster/PhantomEntity$OrbitPointGoal 1/1
-  Patching net/minecraft/entity/monster/PhantomEntity$BodyHelperController 1/1
-  Patching net/minecraft/entity/monster/PhantomEntity$PickAttackGoal 1/1
-  Patching net/minecraft/entity/monster/PhantomEntity$AttackPlayerGoal 1/1
-  Patching net/minecraft/entity/monster/PhantomEntity$AttackPhase 1/1
   Patching net/minecraft/network/play/server/SCommandListPacket$1 1/1
-  Patching net/minecraft/entity/monster/PhantomEntity$1 1/1
   Patching net/minecraft/item/crafting/ShapelessRecipe$Serializer 1/1
   Patching net/minecraft/client/renderer/entity/layers/BipedArmorLayer$1 1/1
   Patching net/minecraft/block/TrapDoorBlock$1 1/1
@@ -3287,6 +3314,7 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/util/registry/WorldSettingsImport$IResourceAccess$RegistryAccess 1/1
   Patching net/minecraft/util/text/TranslationTextComponent 1/1
   Patching net/minecraft/util/text/Style 1/1
+  Patching net/minecraft/network/NettyPacketEncoder 1/1
   Patching net/minecraft/network/PacketBuffer 1/1
   Patching net/minecraft/network/NetworkManager 1/1
   Patching net/minecraft/util/registry/WorldSettingsImport$IResourceAccess$1 1/1
@@ -3322,6 +3350,7 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/server/dedicated/PropertyManager$Property 1/1
   Patching net/minecraft/util/Direction 1/1
   Patching net/minecraft/client/gui/widget/list/KeyBindingList$KeyEntry 1/1
+  Patching net/minecraft/client/renderer/model/UVTransformationUtil 1/1
   Patching net/minecraft/client/gui/widget/list/KeyBindingList$Entry 1/1
   Patching net/minecraft/client/gui/widget/list/KeyBindingList$CategoryEntry 1/1
   Patching net/minecraft/command/arguments/ArgumentTypes 1/1
@@ -3361,7 +3390,6 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/dispenser/IDispenseItemBehavior$19 1/1
   Patching net/minecraft/dispenser/IDispenseItemBehavior$18 1/1
   Patching net/minecraft/nbt/CompoundNBT$1 1/1
-  Patching net/minecraft/block/LadderBlock$1 1/1
   Patching net/minecraft/entity/passive/SheepEntity$2 1/1
   Patching net/minecraft/entity/passive/SheepEntity$1 1/1
   Patching net/minecraft/entity/monster/ZombieEntity$GroupData 1/1
@@ -3414,7 +3442,6 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/client/renderer/ItemRenderer 1/1
   Patching net/minecraft/client/renderer/entity/ItemFrameRenderer 1/1
   Patching net/minecraft/client/renderer/entity/ItemRenderer 1/1
-  Patching net/minecraft/client/renderer/entity/FishRenderer 1/1
   Patching net/minecraft/client/renderer/entity/FallingBlockRenderer 1/1
   Patching net/minecraft/client/renderer/entity/EntityRenderer 1/1
   Patching net/minecraft/client/renderer/entity/EntityRendererManager 1/1
@@ -3422,6 +3449,7 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/entity/monster/IllusionerEntity$MirrorSpellGoal 1/1
   Patching net/minecraft/entity/monster/IllusionerEntity$BlindnessSpellGoal 1/1
   Patching net/minecraft/client/renderer/chunk/ChunkRenderDispatcher 1/1
+  Patching net/minecraft/client/renderer/tileentity/SignTileEntityRenderer 1/1
   Patching net/minecraft/client/renderer/tileentity/PistonTileEntityRenderer 1/1
   Patching net/minecraft/client/renderer/tileentity/ChestTileEntityRenderer 1/1
   Patching net/minecraft/client/renderer/tileentity/TileEntityRendererDispatcher 1/1
@@ -3440,6 +3468,7 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/client/renderer/FluidBlockRenderer 1/1
   Patching net/minecraft/client/renderer/BlockRendererDispatcher 1/1
   Patching net/minecraft/client/renderer/BlockModelShapes 1/1
+  Patching net/minecraft/client/renderer/Atlases 1/1
   Patching net/minecraft/client/renderer/OverlayRenderer 1/1
   Patching net/minecraft/client/shader/ShaderGroup 1/1
   Patching net/minecraft/client/renderer/LightTexture 1/1
@@ -3459,6 +3488,7 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/client/gui/screen/CreateWorldScreen$1 1/1
   Patching net/minecraft/world/lighting/LevelBasedGraph$2 1/1
   Patching net/minecraft/world/lighting/LevelBasedGraph$1 1/1
+  Patching net/minecraft/client/renderer/tileentity/SignTileEntityRenderer$SignModel 1/1
   Patching net/minecraft/inventory/container/PlayerContainer$2 1/1
   Patching net/minecraft/inventory/container/PlayerContainer$1 1/1
   Patching net/minecraft/client/renderer/GameRenderer 1/1
@@ -3488,7 +3518,6 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/client/world/ClientWorld 1/1
   Patching net/minecraft/client/network/login/ClientLoginNetHandler 1/1
   Patching net/minecraft/client/multiplayer/ClientChunkProvider 1/1
-  Patching net/minecraft/client/renderer/entity/model/SkeletonModel 1/1
   Patching net/minecraft/block/AbstractBlock$IPositionPredicate 1/1
   Patching net/minecraft/block/AbstractBlock$IExtendedPositionPredicate 1/1
   Patching net/minecraft/block/AbstractBlock$Properties 1/1
@@ -3675,6 +3704,8 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/world/gen/feature/AbstractBigMushroomFeature 1/1
   Patching net/minecraft/world/gen/carver/WorldCarver 1/1
   Patching net/minecraft/world/gen/settings/DimensionGeneratorSettings 1/1
+  Patching net/minecraft/world/spawner/PhantomSpawner 1/1
+  Patching net/minecraft/world/spawner/PatrolSpawner 1/1
   Patching net/minecraft/world/gen/NoiseChunkGenerator 1/1
   Patching net/minecraft/world/gen/DebugChunkGenerator 1/1
   Patching net/minecraft/world/end/DragonFightManager 1/1
@@ -3687,6 +3718,7 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/advancements/AdvancementList 1/1
   Patching net/minecraft/world/border/WorldBorder 1/1
   Patching net/minecraft/advancements/Advancement 1/1
+  Patching net/minecraft/util/Util 1/1
   Patching net/minecraft/util/SharedConstants 1/1
   Patching net/minecraft/block/WoodType 1/1
   Patching net/minecraft/crash/CrashReportCategory 1/1
@@ -3719,3 +3751,4 @@ Processing: /Users/mortimer/.gradle/caches/forge_gradle/mcp_repo/net/minecraft/j
   Patching net/minecraft/tileentity/AbstractFurnaceTileEntity 1/1
   Patching net/minecraft/tags/TagRegistry$OptionalNamedTag 1/1
   Patching net/minecraft/tags/ITagCollectionSupplier$2 1/1
+  Patching net/minecraft/world/biome/BiomeAmbience$GrassColorModifier$ColorModifier 1/1

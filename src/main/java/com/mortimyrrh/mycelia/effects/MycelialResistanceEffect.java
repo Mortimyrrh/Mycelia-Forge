@@ -12,13 +12,13 @@ public class MycelialResistanceEffect extends Effect
         //#ccc was 0x00FFFF?
     }
 
-    @Override
-    public void performEffect(LivingEntity entityLivingBaseIn, int amplifier) {
-        super.performEffect(entityLivingBaseIn, amplifier);
-    }
+//    @Override
+//    public void performEffect(LivingEntity entityLivingBaseIn, int amplifier) {
+//        super.performEffect(entityLivingBaseIn, amplifier);
+//    }
 
-    @Override
-    public boolean isReady(int duration, int amplifier) {
-        return true;
-    }
+//    @Override
+//    public boolean isReady(int duration, int amplifier) {
+//        return true;
+//    }
 }

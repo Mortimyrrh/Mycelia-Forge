@@ -3,6 +3,9 @@
 
   "_": "->------------------------]  Items  [------------------------<-",
 
+  "item.mycelia.nautilus_rct": "Nautilus~~~",
+  "item.mycelia.nautilus_rct.tooltip": "Sail the Mycelial Network",
+
   "item.mycelia.mycelial_stew": "Mycelial Stew",
   "item.mycelia.mycelial_stew.tooltip": "Takes you to the Mycelial Network",
 
