@@ -2,7 +2,7 @@
 # ![Mycelia Logo](https://raw.githubusercontent.com/Mortimyrrh/Mycelia-Forge/main/icons/mushroomx4.png) 1.16.4
 
 ## Info
-Mycelia 1.16.4 is curently under development, please check back soon.  
+Mycelia 1.18.x is curently under development, please check back soon.  
   
 ## Main Goal. 
 - To add a lightweight, super flat dimension for travelling a long distance.  
